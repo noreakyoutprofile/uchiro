@@ -1,8 +1,8 @@
 import os
 
 # --- Bot tokens (create two bots with @BotFather) ---
-DOWNLOAD_BOT_TOKEN = os.environ.get("DOWNLOAD_BOT_TOKEN", "PUT_DOWNLOAD_BOT_TOKEN_HERE")
-ADMIN_BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", "PUT_ADMIN_BOT_TOKEN_HERE")
+DOWNLOAD_BOT_TOKEN = os.environ.get("DOWNLOAD_BOT_TOKEN", "8798971648:AAFaPeliozXliAo3FvLhtZ3sxdRn1eLeRpw")
+ADMIN_BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", "8647632292:AAF7lPz9nQsqaPadb1b1cLCi94mlsYQHkOI")
 
 # Your personal Telegram numeric ID(s) - the only people allowed to use the admin bot.
 # Get your ID by messaging @userinfobot on Telegram.
