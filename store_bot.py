@@ -23,7 +23,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (f"🛒 សួស្តី! សូមស្វាគមន៍មកកាន់ {STORE_NAME} 🇰🇭\n"
             "ហាងលក់ Account / Fruit / Gamepass Blox Fruits!\n\n"
             "🎮 មានជំនួយល្អៗសម្រាប់អ្នកលេងផងដែរ:\n"
-            "\n/tierlist — Fruit មួយណាល្អ 🍈\n/guide — វីដេអូបង្រៀន 📺\n\n"
+            "/codes — Code ថ្មីៗ 🎁\n/tierlist — Fruit មួយណាល្អ 🍈\n/guide — វីដេអូបង្រៀន 📺\n\n"
             "សូមជ្រើសរើសប្រភេទខាងក្រោម ដើម្បីទិញ:")
     kb = [[InlineKeyboardButton(c, callback_data=f"cat_{c}")] for c in CATEGORIES]
     await update.message.reply_text(text, reply_markup=contact_kb(kb))
